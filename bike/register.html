@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>User Registration - Fusion Bike Rentals</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/icon.png" type="image/icon type">
+    <link rel="stylesheet" href="register.css">
+
+    <script>
+        // Function to check Whether both passwords
+        // is same or not.
+        function checkPassword() {
+            var password1 = document.getElementById('psw').value;
+            var password2 = document.getElementById('pswrepeat').value;
+
+
+            // If Not same return False.    
+            if (password1 != password2) {
+                alert("\nPassword did not match: Please try again...")
+                return false;
+            } else {
+                return true;
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+
+
+    <form onsubmit="return checkPassword()" action="http://localhost/bikerentall/register.php" method="POST">
+        <div class="container">
+            <h1>User Registration Form<span>Please fill in this form to create an account.</span></h1><br>
+
+            <label for="name"><b>Name</b></label><br>
+            <input type="text" placeholder="Enter Full Name" name="name" id="name" required><br>
+
+            <label for="email"><b>Email</b></label><br>
+            <input type="email" placeholder="Enter Email" name="email" id="email" required><br>
+
+            <label for="phone"><b>Phone</b></label><br>
+            <input type="text" placeholder="Enter Phone Number" name="phone" id="phone" required><br>
+
+            <label for="psw"><b>Password</b></label><br>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required><br>
+
+            <label for="psw-repeat"><b>Repeat Password</b></label><br>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" id="pswrepeat" required><br>
+
+            <label for="license"><b>Your License</b></label><br>
+            <input type="file" id="myFile" name="license" required><br>
+
+            <hr>
+            <p>By creating an account you agree to our <a href="#">Terms & Privacy</a></p>
+
+            <button type="submit" class="registerbtn">Register</button><br><br>
+
+            <div class="container signin">
+                <p>Already have an account? <a href="userlogin.html">Sign in</a>.</p>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>
