@@ -1,0 +1,105 @@
+* {
+    font-family: Roboto;
+}
+
+.footer-distributed {
+    /* background: #444; */
+    /* background-image: url('img/www.jpg');
+    background-repeat: no-repeat; */
+    background-color: #555555;
+    background-size: 100px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    font: bold 16px sans-serif;
+    text-align: left;
+    padding: 50px 60px 40px;
+    overflow: hidden;
+}
+
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    float: left;
+}
+
+
+/* The company logo */
+
+.footer-distributed h3 {
+    color: white;
+    font: normal 36px 'Roboto', cursive;
+    margin: 0 0 10px;
+}
+
+.footer-distributed h3 span {
+    color: #5383d3;
+}
+
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: white;
+    /* margin: 0 0 10px; */
+    padding: 0;
+}
+
+.footer_links {
+    list-style-type: none;
+    display: inline-flex;
+    left: -10px;
+}
+
+.footer-distributed .footer_links a {
+    display: inline-block;
+    line-height: 1.8;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer_links a:hover {
+    color: rgb(255, 0, 140);
+}
+
+.footer-distributed .footer-company-name {
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons {
+    margin-top: 40px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: rgb(29, 29, 66);
+    border-radius: 2px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+
+/* Footer Right */
+
+.footer_right {
+    position: relative;
+    float: right;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}

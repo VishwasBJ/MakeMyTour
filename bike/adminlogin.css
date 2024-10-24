@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url('img/coverbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 30%;
+    margin-top: 10%;
+    border-radius: 15px;
+    background-color: #dad8d8;
+    padding: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1.0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .signin {
+    margin: 10px;
+    width: auto;
+    border-radius: 0 25px;
+}
+
+.container h2 {
+    background-color: red;
+    color: white;
+    padding: 20px;
+    margin: -15px -15px 15px -15px;
+    border-radius: 15px 15px 0 0;
+}
+
+
+/* h2 {
+    background-color: yellow;
+    color: red;
+} */
+
+#usr,
+#pass,
+#email {
+    border-radius: 5px;
+    height: 25px;
+    width: 70%;
+    margin-top: 3px;
+}
+
+.sub,
+#login {
+    background: rgb(255, 0, 0);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.sub,
+#login:hover {
+    background: #ff0062;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    color: red;
+}

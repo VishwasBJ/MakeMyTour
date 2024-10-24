@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: url('img/aaa.jpg');
+    background-repeat: repeat;
+    background-size: 100px;
+    height: 100px;
+}
+
+div {
+    display: block;
+}
+
+.logo {
+    position: absolute;
+    height: 60px;
+    width: 200px;
+    padding: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin: 5px;
+    border: 0 solid #0000BB;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+
+.list1 {
+    border-right: 3px solid grey;
+    border-radius: 5px;
+    border-left: 3px solid grey;
+    padding: 10px 0 10px 30px;
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    width: 550px;
+    height: 60px;
+}
+
+.list1 li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 30px;
+    vertical-align: center;
+    height: 60px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+a.active,
+.nav a:hover {
+    background: red;
+    color: white;
+    width: auto;
+}
+
+.a {
+    width: auto;
+}
+
+.b {
+    width: auto;
+}
+
+.c {
+    width: auto;
+}
+
+.d {
+    width: auto;
+}
+
+.e {
+    width: auto;
+}
+
+.f {
+    width: auto;
+}
+
+.dropdown {
+    position: relative;
+    left: 890px;
+    top: 25px;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: red;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #ff0062;
+    color: black;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 3px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: red;
+    color: white;
+}
+
+.show {
+    display: block;
+}
+
+.list2 {
+    padding: 10px 0 10px 30px;
+    position: absolute;
+    top: 10px;
+    left: 1100px;
+    width: 340px;
+    height: 60px;
+    border-right: 3px solid grey;
+    border-radius: 5px;
+    border-left: 3px solid grey;
+}
+
+.list2 li {
+    list-style-type: none;
+    padding: 0 0 10px 0;
+    margin-right: 10px;
+    float: left;
+}
+
+.mysite .a {
+    height: 40px;
+    width: 40px;
+}
+
+.mysite .b {
+    height: 40px;
+    width: 40px;
+}
+
+.mysite .c {
+    height: 40px;
+    width: 40px;
+}
+
+.mysite .d {
+    height: 40px;
+    width: 40px;
+}
+
+.mysite .a:hover {
+    transform: translateY(-5px);
+}
+
+.mysite .b:hover {
+    transform: translateY(-5px);
+}
+
+.mysite .c:hover {
+    transform: translateY(-5px);
+}
+
+.mysite .d:hover {
+    transform: translateY(-5px);
+}
