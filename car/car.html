@@ -190,7 +190,7 @@
                     <p class="text-sm text-gray-600">Seats: ${car.seats}</p>
                 </div>
                 <div class="p-4 flex justify-between">
-                    <button class="flex-1 mr-2 px-4 py-2 border border-gray-300 rounded-md"><a href="#">
+                    <button class="flex-1 mr-2 px-4 py-2 border border-gray-300 rounded-md"><a href="buy12.html" onclick="buy1()">
                                      Buy
                                   </a></button>
                     <button class="flex-1 bg-purple-600 text-white px-4 py-2 rounded-md hover:bg-purple-700">
@@ -205,7 +205,7 @@
             `;
             carGrid.appendChild(carCard);
         });
-
+       
         // Chatbot functionality
         const chatbot = document.getElementById('chatbot');
         const chatbotToggle = document.getElementById('chatbotToggle');
@@ -259,6 +259,7 @@
 
         // Initial chatbot message
         addChatMessage("Hi! How many passengers are you looking to accommodate?", true);
+
     </script>
 </body>
 </html>
