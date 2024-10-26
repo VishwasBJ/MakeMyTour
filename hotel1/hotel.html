@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakeMyTour - Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-container">
+        <header>
+            <a href="#" class="logo" aria-label="MakeMyTour">
+                <span class="make">MAKE</span><span class="mytour">MYTOUR</span>
+            </a>
+        </header>
+        <main>
+            <form id="search-form" class="search-form">
+                <div class="form-group">
+                    <label for="check-in">Check-in:</label>
+                    <input type="date" id="check-in" required>
+                </div>
+                <div class="form-group">
+                    <label for="check-out">Check-out:</label>
+                    <input type="date" id="check-out" required>
+                </div>
+                <div class="form-group">
+                    <label for="adults">Adults:</label>
+                    <input type="number" id="adults" min="0" value="0" required>
+                </div>
+                <div class="form-group">
+                    <label for="children">Children:</label>
+                    <input type="number" id="children" min="0" value="0" required>
+                </div>
+                <button type="submit">SEARCH</button>
+            </form>
+        </main>
+    </div>
+    <section class="hotel-grid">
+        <!-- Hotel cards will be dynamically inserted here -->
+    </section>
+    <section class="reviews">
+        <h2>Reviews for Featured Hotel</h2>
+        <div class="review-container">
+            <!-- Reviews will be dynamically inserted here -->
+        </div>
+        <!-- <div class="review-images">
+            <img id="reviewImage" src="" alt="Review image">
+            <div class="image-controls">
+                <button id="prevImage">Previous</button>
+                <button id="nextImage">Next</button>
+            </div>
+        </div> -->
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
