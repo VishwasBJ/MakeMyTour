@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAKE MYTOUR - Car and Motorcycle Rental Service</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: #fff;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .logo span {
+            color: #ff7700;
+        }
+        nav a {
+            margin-left: 1rem;
+            text-decoration: none;
+            color: #333;
+        }
+        .hero {
+            display: flex;
+            padding: 2rem;
+        }
+        .hero-content {
+            flex: 1;
+            padding-right: 2rem;
+        }
+        .hero-image {
+            flex: 1;
+            position: relative;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .hero h1 .highlight {
+            color: #ff7700;
+        }
+        .cta-button {
+            display: inline-block;
+            background-color: #ff7700;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+        }
+        .features {
+            position: absolute;
+            bottom: 1rem;
+            left: 1rem;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 1rem;
+            border-radius: 5px;
+        }
+        .features h3 {
+            margin-top: 0;
+        }
+        .feature-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0.5rem;
+        }
+        .motorcycle-rentals {
+            background-color: #f0f0f0;
+            padding: 2rem;
+        }
+        .motorcycle-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        .motorcycle-card {
+            background-color: white;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .motorcycle-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .motorcycle-info {
+            padding: 1rem;
+        }
+        .motorcycle-info h3 {
+            margin-top: 0;
+        }
+        .motorcycle-price {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+        .book-now-button {
+            display: block;
+            width: 100%;
+            padding: 0.5rem;
+            background-color: #ffd700;
+            color: black;
+            text-align: center;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .book-now-button:hover {
+            background-color: #ffc700;
+            transform: translateY(-2px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">MAKE <span>MYTOUR</span></div>
+        <nav>
+            <a href="#our-fleet">Our Fleet</a>
+            <a href="#locations">Locations</a>
+            <a href="#about-us">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>LET'S GO!<br>THE <span class="highlight">ADVENTURE</span><br>IS WAITING<br>FOR YOU</h1>
+                <p>Embark on Your Journey Today with Our Premium Scooter and Motorcycle Rental Service. Discover New Horizons with Comfort, Style, and Unbeatable Rates.</p>
+                <h2>Welcome to MakeMyTour</h2>
+                <p>Discover our wide range of vehicles for your next adventure. From compact cars to spacious Scooter, and now including motorcycles, we have the perfect ride for every journey.</p>
+                <a href="#our-fleet" class="cta-button">Explore Our Fleet</a>
+            </div>
+            <div class="hero-image">
+                <img src="img/pixelcut-export (1).jpeg" alt="Sunset over coastal road" style="width: 100%; height: auto;">
+                <div class="features">
+                    <h3>Why Choose MakeMyTour?</h3>
+                    <div class="feature-list">
+                        <div>🚗 Wide Range of Vehicles</div>
+                        <div>📍 Convenient Locations</div>
+                        <div>🛠️ 24/7 Customer Support</div>
+                        <div>📅 Flexible Rental Periods</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="our-fleet" class="motorcycle-rentals">
+            <h2>Our Motorcycle Fleet</h2>
+            <div class="motorcycle-grid">
+                <div class="motorcycle-card">
+                    <img src="img/honda-activa-6g-right-side-view1.webp" alt="Honda Activa 6G">
+                    <div class="motorcycle-info">
+                        <h3>Honda Activa 6G</h3>
+                        <p class="motorcycle-price">₹20/hour</p>
+                        <button class="book-now-button"><a href="#" style="color: #333;">BOOK NOW</a></button>
+                    </div>
+                </div>
+                <div class="motorcycle-card">
+                    <img src="img/yamaha-fascino-125-2023.webp" alt="Yamaha Fascino (BS6)">
+                    <div class="motorcycle-info">
+                        <h3>Yamaha Fascino (BS6)</h3>
+                        <p class="motorcycle-price">₹20/hour</p>
+                        <button class="book-now-button"><a href="#" style="color: #333;">BOOK NOW</a></button>
+                    </div>
+                </div>
+                <div class="motorcycle-card">
+                    <img src="img/halycon_green_000.avif" alt="Royal Enfield Hunter 350">
+                    <div class="motorcycle-info">
+                        <h3>Royal Enfield Hunter 350</h3>
+                        <p class="motorcycle-price">₹57/hour</p>
+                        <button class="book-now-button"><a href="#" style="color: #333;">BOOK NOW</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const fleetLinks = document.querySelectorAll('a[href="#our-fleet"]');
+            fleetLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const fleetSection = document.getElementById('our-fleet');
+                    fleetSection.scrollIntoView({ behavior: 'smooth' });
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -187,12 +187,12 @@
             switch (option) {
                 case 'Accommodation':
                     addMessage("Here's a hotel booking option:", true);
-                    addMessage('<a href="#" class="link-button">Book a Hotel</a>', true);
+                    addMessage('<a href="MakeMyTour/chatbot/car/car.html" class="link-button">Book a Hotel</a>', true);
                     break;
                 case 'Transport':
                     addMessage("Please choose a transport option:", true);
                     addMessage(null, true, [
-                        { text: 'Car rental', class: 'accommodation' },
+                        {  text: 'Car rental', class: 'accommodation' },
                         { text: 'Bike rental', class: 'transport' }
                     ]);
                     break;
@@ -202,7 +202,7 @@
                     break;
                 case 'Car rental':
                     addMessage("You've selected Car rental. Here's a booking option:", true);
-                    addMessage('<a href="#" class="link-button">Book a Car</a>', true);
+                    addMessage('<a href="MakeMyTour/hotel/hotel.html" class="link-button">Book a Car</a>', true);
                     break;
                 case 'Bike rental':
                     addMessage("You've selected Bike rental. Here's a booking option:", true);
