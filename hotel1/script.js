@@ -55,7 +55,7 @@ function createHotelCard(hotel) {
                     <span class="star-rating">${generateStarRating(parseFloat(hotel.rating))}</span>
                     (${hotel.rating})
                 </div>
-                <button class="book-now">Book Now</button>
+                <button class="book-now"><a href="buy12.html" style="color: black" >Book Now</a></button>
             </div>
         </div>
     `;
